@@ -2,8 +2,9 @@
   <div class="container">
     {{firstname}}
     <ul>
-      <li *ngFor =" let t of tasks ">{{t}}</li>
+      <li *ngFor =" let t of tasks;let i =index" (click)="showTask(i)">{(i+1)}.{{t.name}}</li>
     </ul>
+    <app-taskdetails>[taskDetails]="currentTask"</app-taskdetails>
     
   </div>
 </div>

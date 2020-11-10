@@ -8,8 +8,16 @@ import { Component, OnInit } from '@angular/core';
 export class MainareaComponent implements OnInit {
 
   firstname = "SAIKUMAR";
-  tasks = ["playying","running","kicking","Stunting"];
-
+  currentTask;
+  tasks = [
+          {"Name":"Eating Food ","deadline":"30022020","concern_person":"Bandiwala"},
+          {"Name":"Boccing Class","deadline":"30022020","concern_person":"Baskar"},
+          {"Name":"Playing Cricekt","deadline":"30022020","concern_person":"Kingshaw"},
+          {"Name":"Running to Class","deadline":"30022020","concern_person":"kuldeep"},
+          ];
+  showTask(index){
+    this.currentTask = this.tasks[index];
+  }
   constructor() { }
 
   ngOnInit() {

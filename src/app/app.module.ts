@@ -7,6 +7,7 @@ import { HeaderComponent } from './header/header.component';
 import { MainareaComponent } from './mainarea/mainarea.component';
 import { FooterComponent } from './footer/footer.component';
 import { TaskdetailsComponent } from './taskdetails/taskdetails.component';
+import { FinallistComponent } from './finallist/finallist.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { TaskdetailsComponent } from './taskdetails/taskdetails.component';
     HeaderComponent,
     MainareaComponent,
     FooterComponent,
-    TaskdetailsComponent
+    TaskdetailsComponent,
+    FinallistComponent
   ],
   imports: [
     BrowserModule,

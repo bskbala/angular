@@ -12,9 +12,7 @@ export class MainareaComponent implements OnInit {
   tasks = [
           {"Name":"Eating Food ","deadline":"30022020","concern_person":"Bandiwala"},
           {"Name":"Boccing Class","deadline":"30022020","concern_person":"Baskar"},
-          {"Name":"Playing Cricekt","deadline":"30022020","concern_person":"Kingshaw"},
-          {"Name":"Running to Class","deadline":"30022020","concern_person":"kuldeep"},
-          ];
+          
   showTask(index){
     this.currentTask = this.tasks[index];
   }

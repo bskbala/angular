@@ -15,7 +15,7 @@ export class MainareaComponent implements OnInit {
           {"Name":"Boccing Class","deadline":"30022020","concern_person":"Baskar"},
           {"Name":"Boccing Class","deadline":"30022020","concern_person":"Baskar"},
           {"Name":"Boccing Class","deadline":"30022020","concern_person":"Baskar"},
-          
+          ];
   showTask(index){
     this.currentTask = this.tasks[index];
   }
